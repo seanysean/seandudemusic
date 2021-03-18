@@ -5,9 +5,9 @@
 </head>
 <body>
   <h1>Music, but costs money</h1>
-  <p>Your 5$ goes directly to saving kittens in australia</p>
+  <p>Your 5$ goes directly to saving kittens in australia. Also please do not hack</p>
   <button>PAY</button>
-  <button style="display:none" id="button">Listen</button>
+  <button id="button" disabled>Listen</button>
   <script>
     let url = (Math.random() > 0.1) ? "actualawful.mp3" : "memoriesoflongago.mp3";
     const music = new Audio(url);
